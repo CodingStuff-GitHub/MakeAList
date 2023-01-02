@@ -31,7 +31,7 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3
         with:
-          target_branch: gh-pages
+          target_branch: main
           build_dir: dist/make-alist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
