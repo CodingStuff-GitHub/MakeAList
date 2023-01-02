@@ -8,8 +8,7 @@
     "build:prod": "ng build --base-href /MakeAList/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "lint": "ng lint",
-    "test:prod": "ng test --browsers=ChromeHeadless --watch=false --code-coverage"
+    "lint": "ng lint"
   },
   "private": true,
   "dependencies": {
